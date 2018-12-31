@@ -1,0 +1,16 @@
+{
+  "name": "dvd",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt --hostname 0.0.0.0",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
